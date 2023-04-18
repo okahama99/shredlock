@@ -1,4 +1,4 @@
-package config;
+package com.example.shredlock.config;
 
 import net.javacrumbs.shedlock.core.LockProvider;
 import net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateLockProvider;

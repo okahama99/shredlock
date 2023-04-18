@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-@EnableSchedulerLock(defaultLockAtMostFor = "PT30S")
+@EnableSchedulerLock(defaultLockAtMostFor = "PT5S", defaultLockAtLeastFor = "PT1S")
 public class ShredlockApplication {
 
     public static void main(String[] args) {
